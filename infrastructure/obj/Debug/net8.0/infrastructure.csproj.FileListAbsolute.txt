@@ -1,0 +1,15 @@
+C:\Users\IT\source\repos\kolayca-talep\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\IT\source\repos\kolayca-talep\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\IT\source\repos\kolayca-talep\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\IT\source\repos\kolayca-talep\infrastructure\bin\Debug\net8.0\domain.dll
+C:\Users\IT\source\repos\kolayca-talep\infrastructure\bin\Debug\net8.0\domain.pdb
+C:\Users\IT\source\repos\kolayca-talep\infrastructure\obj\Debug\net8.0\infrastructure.csproj.AssemblyReference.cache
+C:\Users\IT\source\repos\kolayca-talep\infrastructure\obj\Debug\net8.0\infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IT\source\repos\kolayca-talep\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfoInputs.cache
+C:\Users\IT\source\repos\kolayca-talep\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
+C:\Users\IT\source\repos\kolayca-talep\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\IT\source\repos\kolayca-talep\infrastructure\obj\Debug\net8.0\infrastr.D83B591B.Up2Date
+C:\Users\IT\source\repos\kolayca-talep\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\IT\source\repos\kolayca-talep\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\IT\source\repos\kolayca-talep\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\IT\source\repos\kolayca-talep\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
