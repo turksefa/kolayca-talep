@@ -9,6 +9,7 @@ namespace domain.Dtos
 {
     public class ProductCategoryDto
     {
+        public int ProductCategoryId { get; set; }
         [Required]
         [MaxLength(100)]
         public string ProductCategoryName { get; set; } = string.Empty;

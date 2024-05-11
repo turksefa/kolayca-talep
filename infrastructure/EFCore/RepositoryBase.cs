@@ -1,4 +1,5 @@
-﻿using infrastructure.Contracts;
+﻿using domain.RequestFeatures;
+using infrastructure.Contracts;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
@@ -18,13 +19,13 @@ namespace infrastructure.EFCore
 
         public void Delete(T entity) => _context.Set<T>().Remove(entity);
 
-        public async Task<IEnumerable<T>> FindAllAsync(bool trackChanges) => trackChanges ?
-            await _context.Set<T>().ToListAsync() :
-            await _context.Set<T>().AsNoTracking().ToListAsync();
+        public IQueryable<T> FindAll(bool trackChanges) => trackChanges ?
+            _context.Set<T>() :
+            _context.Set<T>().AsNoTracking();
 
-        public async Task<T?> FindByCondititonAsync(Expression<Func<T, bool>> expression, bool trackChanges) => trackChanges ?
-            await _context.Set<T>().Where(expression).SingleOrDefaultAsync() :
-            await _context.Set<T>().Where(expression).AsNoTracking().SingleOrDefaultAsync();
+        public IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges) => trackChanges ?
+            _context.Set<T>().Where(expression) :
+            _context.Set<T>().Where(expression).AsNoTracking();
 
         public void Update(T entity) => _context.Set<T>().Update(entity);
     }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LOSE7npmcFafl4+ty1iwXGdqB8Ox/hcl55HSYxTwmnvsyYWzdZ7u9ndiiFbnmcDIS19JA7TYEIuyLmpU1N//qw==",
+  "dgSpecHash": "aglXaKbtcdIN13Vwh0/QcRgsdxrgjDX6hhWpc25+IwhqpXFLq06CnVhTbbe8XZbr0ai9E4Gl513lPZqtp2Ygbg==",
   "success": true,
   "projectFilePath": "C:\\Users\\IT\\source\\repos\\kolayca-talep\\app\\app.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\IT\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\IT\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\IT\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\IT\\.nuget\\packages\\bogus\\35.5.1\\bogus.35.5.1.nupkg.sha512",
     "C:\\Users\\IT\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\IT\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\IT\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",

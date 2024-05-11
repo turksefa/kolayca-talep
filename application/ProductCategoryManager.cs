@@ -1,7 +1,9 @@
 ﻿using application.Contracts;
 using AutoMapper;
+using Bogus;
 using domain.Dtos;
 using domain.Models;
+using domain.RequestFeatures;
 using infrastructure.Contracts;
 
 namespace application
@@ -30,9 +32,9 @@ namespace application
             await _repositoryManager.SaveAsync();
         }
 
-        public async Task<IEnumerable<ProductCategoryDto>> GetAllProductCategoryAsync(bool trackChanges)
+        public async Task<IEnumerable<ProductCategoryDto>> GetAllProductCategoriesAsync(RequestParameters requestParameters, bool trackChanges)
         {
-            return _mapper.Map<IEnumerable<ProductCategoryDto>>(await _repositoryManager.ProductCategoryRepository.FindAllAsync(trackChanges));
+            return _mapper.Map<IEnumerable<ProductCategoryDto>>(await _repositoryManager.ProductCategoryRepository.GetAllProductCategoriesAsync(requestParameters, trackChanges));
         }
 
         public async Task<ProductCategoryDto> GetProductCategoryByIdAsync(int id, bool trackChanges)
@@ -49,7 +51,7 @@ namespace application
 
         private async Task<ProductCategory> GetProductCategoryByIdAndCheckExists(int id, bool trackChanges)
         {
-            var entity = await _repositoryManager.ProductCategoryRepository.FindByCondititonAsync(p => p.ProductCategoryId.Equals(id), trackChanges);
+            var entity = await _repositoryManager.ProductCategoryRepository.GetProductCategoryByIdAsync(id, trackChanges);
             if (entity == null)
                 throw new Exception();
             return entity;

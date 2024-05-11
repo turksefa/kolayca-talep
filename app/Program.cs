@@ -1,3 +1,4 @@
+using app.Extensions;
 using application;
 using application.Contracts;
 using infrastructure.Contracts;
@@ -31,6 +32,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+app.ConfigureExceptionHandler();
 
 app.UseRouting();
 

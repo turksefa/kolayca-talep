@@ -13,3 +13,4 @@ C:\Users\IT\source\repos\kolayca-talep\infrastructure\obj\Debug\net8.0\infrastru
 C:\Users\IT\source\repos\kolayca-talep\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
 C:\Users\IT\source\repos\kolayca-talep\infrastructure\obj\Debug\net8.0\infrastructure.pdb
 C:\Users\IT\source\repos\kolayca-talep\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
+C:\Users\IT\source\repos\kolayca-talep\infrastructure\obj\Debug\net8.0\infrastructure.sourcelink.json

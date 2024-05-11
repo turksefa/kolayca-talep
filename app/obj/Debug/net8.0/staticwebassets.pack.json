@@ -9541,6 +9541,10 @@
       "PackagePath": "staticwebassets\\vendor\\datatables\\media\\js\\jquery.dataTables.min.js"
     },
     {
+      "Id": "C:\\Users\\IT\\source\\repos\\kolayca-talep\\app\\wwwroot\\vendor\\datatables\\media\\package-lock.json",
+      "PackagePath": "staticwebassets\\vendor\\datatables\\media\\package-lock.json"
+    },
+    {
       "Id": "C:\\Users\\IT\\source\\repos\\kolayca-talep\\app\\wwwroot\\vendor\\datatables\\media\\package.json",
       "PackagePath": "staticwebassets\\vendor\\datatables\\media\\package.json"
     },

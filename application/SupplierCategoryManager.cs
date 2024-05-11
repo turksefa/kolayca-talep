@@ -2,7 +2,9 @@
 using AutoMapper;
 using domain.Dtos;
 using domain.Models;
+using domain.RequestFeatures;
 using infrastructure.Contracts;
+using Microsoft.EntityFrameworkCore;
 
 namespace application
 {
@@ -30,9 +32,9 @@ namespace application
             await _repositoryManager.SaveAsync();
         }
 
-        public async Task<IEnumerable<SupplierCategoryDto>> GetAllSupplierCategoryAsync(bool trackChanges)
+        public async Task<IEnumerable<SupplierCategoryDto>> GetAllSupplierCategoriesAsync(RequestParameters requestParameters, bool trackChanges)
         {
-            return _mapper.Map<IEnumerable<SupplierCategoryDto>>(await _repositoryManager.SupplierCategoryRepository.FindAllAsync(trackChanges));
+            return _mapper.Map<IEnumerable<SupplierCategoryDto>>(await _repositoryManager.SupplierCategoryRepository.GetAllSupplierCategoriesAsync(requestParameters, trackChanges));
         }
 
         public async Task<SupplierCategoryDto> GetSupplierCategoryByIdAsync(int id, bool trackChanges)
@@ -49,7 +51,7 @@ namespace application
 
         private async Task<SupplierCategory> GetSupplierCategoryByIdAndCheckExists(int id, bool trackChanges)
         {
-            var entity = await _repositoryManager.SupplierCategoryRepository.FindByCondititonAsync(s => s.SupplierCategoryId.Equals(id), trackChanges);
+            var entity = await _repositoryManager.SupplierCategoryRepository.GetSupplierCategoryByIdAsync(id, trackChanges);
             if (entity == null)
                 throw new Exception();
             return entity;

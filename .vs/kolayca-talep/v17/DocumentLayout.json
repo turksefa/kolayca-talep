@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{171A0E3A-1C8A-43C9-81C9-AEE760E3AC6B}|app\\app.csproj|solutionrelative:app\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85CCEE4B-EAD6-4D76-844A-62B3E061FBB6}|infrastructure\\infrastructure.csproj|c:\\users\\it\\source\\repos\\kolayca-talep\\infrastructure\\efcore\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85CCEE4B-EAD6-4D76-844A-62B3E061FBB6}|infrastructure\\infrastructure.csproj|solutionrelative:infrastructure\\efcore\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CE11C04-3E11-4AFD-BABE-C2428F14D28B}|application\\application.csproj|c:\\users\\it\\source\\repos\\kolayca-talep\\application\\suppliercategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CE11C04-3E11-4AFD-BABE-C2428F14D28B}|application\\application.csproj|solutionrelative:application\\suppliercategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,22 +28,22 @@
               "RelativeDocumentMoniker": "app\\Controllers\\SettingsController.cs",
               "ToolTip": "C:\\Users\\IT\\source\\repos\\kolayca-talep\\app\\Controllers\\SettingsController.cs",
               "RelativeToolTip": "app\\Controllers\\SettingsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T14:24:47.733Z",
+              "WhenOpened": "2024-05-09T13:32:51.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\IT\\source\\repos\\kolayca-talep\\infrastructure\\EFCore\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "infrastructure\\EFCore\\RepositoryBase.cs",
-              "ToolTip": "C:\\Users\\IT\\source\\repos\\kolayca-talep\\infrastructure\\EFCore\\RepositoryBase.cs",
-              "RelativeToolTip": "infrastructure\\EFCore\\RepositoryBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABBAAAA",
+              "Title": "SupplierCategoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\IT\\source\\repos\\kolayca-talep\\application\\SupplierCategoryManager.cs",
+              "RelativeDocumentMoniker": "application\\SupplierCategoryManager.cs",
+              "ToolTip": "C:\\Users\\IT\\source\\repos\\kolayca-talep\\application\\SupplierCategoryManager.cs",
+              "RelativeToolTip": "application\\SupplierCategoryManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T14:23:40.632Z",
+              "WhenOpened": "2024-05-09T13:30:24.786Z",
               "EditorCaption": ""
             }
           ]
